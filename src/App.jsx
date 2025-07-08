@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Component/Home"
-// import QuoteForm from './pages/QouteForm';
+import QuoteForm from './pages/QouteForm';
 
 
 
@@ -11,7 +11,7 @@ const App = () => {
    <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        {/* <Route path="/Quote" element={<QuoteForm/>} /> */}
+        <Route path="/Quote" element={<QuoteForm/>} />
       </Routes>
     </Router>
   )
