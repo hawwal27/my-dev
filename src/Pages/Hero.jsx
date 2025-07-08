@@ -51,7 +51,7 @@ const HomePage = () => {
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
-          <Link to="QuoteForm">
+          <Link to="Quote">
             <button className="bg-amber-600 hover:bg-amber-700 px-6 py-3 text-lg font-medium rounded-full shadow">
               Request a Quote
             </button>
