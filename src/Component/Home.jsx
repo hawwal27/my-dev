@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../pages/Navbar'
-import Hero from '../pages/Hero'
-import ServicesSection from '../pages/Service'
-import ProjectsSection from '../pages/Project'
-import AboutUsSection from '../pages/Aboutus'
-import ContactUsSection from '../pages/Contact'
-import FAQSection from '../pages/FAQ'
-import Footer from '../pages/Footer'
+import Navbar from '../Pages/Navbar.jsx'
+import Hero from '../Pages/Hero.jsx'
+import ServicesSection from '../Pages/Service.jsx'
+import ProjectsSection from '../Pages/Project.jsx'
+import AboutUsSection from '../Pages/Aboutus.jsx'
+import ContactUsSection from '../Pages/Contact.jsx'
+import FAQSection from '../Pages/FAQ.jsx'
+import Footer from '../Pages/Footer.jsx'
 
 const Home = () => {
   return (
